@@ -10,7 +10,7 @@
     }
   ],
   "rewrites": [
-    { "source": "/vcsky/:path*", "destination": "https://cdn.dos.zone/vcsky/:path*" },
-    { "source": "/vcbr/:path*", "destination": "https://br.cdn.dos.zone/vcsky/:path*" }
+    { "source": "/vcsky/:path*", "destination": "/api/proxy?target=sky&path=:path*" },
+    { "source": "/vcbr/:path*", "destination": "/api/proxy?target=br&path=:path*" }
   ]
 }
