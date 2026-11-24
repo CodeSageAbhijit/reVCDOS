@@ -11,6 +11,7 @@
   ],
   "rewrites": [
     { "source": "/vcsky/:path*", "destination": "https://cdn.dos.zone/vcsky/:path*" },
+    { "source": "/vcbr/:file*.br", "destination": "https://br.cdn.dos.zone/vcsky/:file*" },
     { "source": "/vcbr/:path*", "destination": "https://br.cdn.dos.zone/vcsky/:path*" }
   ]
 }
